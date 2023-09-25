@@ -1,0 +1,51 @@
+    <!DOCTYPE html>
+    <html lang="en">
+        <!--Craps Webpage for CSC 102 Fall 2023
+    Week 3
+    Written by Jean Hale
+                alihale@uat.edu or bean1317@gmail.com
+                22Sep2023-->
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Jean Beans Game Page</title>
+        <script src="gameCode.js"></script>
+        <link rel="stylesheet" href="styleGames.css">
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <h2>
+                    Navigation
+                </h2>
+                <a href="./boards.html">
+                    Home
+                </a><br>
+                <a href="./index.html">
+                    Index
+                </a><br>
+                <a href="./game.html">
+                    Game
+                </a>
+            </nav>
+        </header>
+        <h1>Welcome to my Game Page</h1>
+        <h3 class="blink_text">Want to play craps?</h3>
+        <p>
+            The rules of craps:<br>
+            1. Roll two dice<br>
+            2. If the sum of the dice is 7 or 11, you lose!<br>
+            3. If the dice are equal to eachother(aka doubles) and even, you win!<br>
+        </p>
+        Press button to play Craps<br>
+        Die 1 result:<div id="die1Res"> Press Play Craps for Result</div><br>
+        Die 2 result:<div id="die2Res"> Press Play Craps for Result</div><br>
+        Sum result:<div id="sumRes"> Press Play Craps for Result</div><br>
+        Final result:<div id="finRes"> Press Play Craps for Result</div><br>
+        <button onclick="playCraps()">
+            Play Craps
+        </button>
+    </body>
+    </html>
